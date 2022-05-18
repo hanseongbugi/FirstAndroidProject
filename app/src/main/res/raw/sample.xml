@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<BlockGame>
+<Screen>
+	<Size w="1000" h="700"></Size>
+</Screen>
+<GamePanel>
+<Bg>background1.jpg</Bg>
+<Sound>background.wav</Sound>
+<Block>
+<Obj x="32" y="65" w="100" h="100" life="3" action="shake" delay="100" img="block\asteroid2.jpg"></Obj>
+<Obj x="152" y="65" w="100" h="100" life="1" action="null" delay="1000" img="block\asteroid2.jpg"></Obj>
+</Block>
+<Item>
+<Obj x="200" y="165" w="100" h="100" life="1" type="score" action="shake" delay="100" img="item\star.png"></Obj>
+</Item>
+<Player>
+<Weapon x="500" y="1500" w="200" h="200" damage="1" type="null" img="boundsball.png"></Weapon>
+</Player>
+</GamePanel>
+</BlockGame>
